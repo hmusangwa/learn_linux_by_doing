@@ -1,5 +1,4 @@
-# learn_linux_by_doinganalyzed
-data
-README.md
-top5-highest-temperatures.csv
-NEhemie works on removing duplicated data from file                                                                          uniq < satelite_temperature_data.csv > non-d-satelite_temperature_data.csv
+1. Eddy worked on the extra task of extracting heat recorded from your own country
+command used : grep "Rwanda" data/satelite_temperature_data.csv > country-heat_data.csv
+2. Tresor worked on the task of extracting top 5 lowest temperatures from satelite_temperature_data.csv and adding them in top-5-lowest-temperatures.csv
+command used : sort -t',' -k3,3 -n data/satelite_temperature_data.csv | uniq -f 2 | head -5 > analyzed/top-5-lowest-temperatures.csv
