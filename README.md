@@ -4,5 +4,5 @@
 - **amaliza-shal** Moved the top-5 lowest temperature file to analysed directory  
 ```mv top-5-lowest-temperature.csv analysed```  
 - **HonourGod** renamed the files in the analyzed directory properly and removed duplicate from the satelite_temperature_data.csv file
-```mv top5-highest-temperatures.csv top-5-highest-temperatures.csv```
+```mv top5-highest-temperatures.csv top-5-highest-temperatures.csv```  
 ```sort -u satelite_temperature_data.csv > temp.txt && mv temp.txt satelite_temperature_data.csv```
