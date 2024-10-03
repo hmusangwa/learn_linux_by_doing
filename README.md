@@ -4,4 +4,5 @@ Chinbueze worked on renaming the file to match the naming convention and also cr
     mv top5_highest_temperature top-5-lowest-temparatures.csv vi REAME.md
 Emmanuel sorted the top 5 highest in the countries 
     sort -t, -k3 -n satelite_temperature_data.csv| head -n 10
-
+Emmanuel sorted the top 5 lowest temperature in the given countries
+  sort -t, -k3 -n satelite_temperature_data.csv| head -n 10
