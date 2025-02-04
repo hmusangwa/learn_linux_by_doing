@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Ensure the analyzed_data directory exists
+mkdir -p analyzed_data
+
+# Extract the top 10 highest temperatures
+# Assuming the CSV format is: Date,Location,Temperature
+# Sorting based on the Temperature column (assuming it's the 3rd column)
+head -n 1 raw_data/satelite_temperature_data.csv > analyzed_data/highest_temp.csv  # Keep header
+awk -F',' 'NR>1' raw_data/satelite_temperature_data.csv | sort -t, -k3 -nr | head -n 10 >> analyzed_data/highest_temp.csv
+
+echo "Top 10 highest temperatures saved in analyzed_data/highest_temp.csv"
