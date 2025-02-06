@@ -50,7 +50,7 @@ mv satelite_temperature_data.csv raw_data
 ```bash
 	
 ```
-8. **option question (bonus) **
+8. **option question(bonus)**
 ```bash
 #the output message
 echo "Extracting top 10 highest temperatures..."
@@ -84,5 +84,4 @@ cd ..
 grep "Kenya" raw_data/satelite_temperature_data.csv | sort -t, -k4,4nr > final_semana/humidity_data_Kenya.csv
 #this means the out put message is this one
 echo "data has processed by semana was sucessfully"
-#this will be the output message
 ```
