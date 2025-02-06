@@ -38,7 +38,9 @@ After forking and setting up collaborators, follow these steps:
 
 5. **Clean rwa_data**
 ```bash
-	
+#moving satelite_temperature_data.csv into direwctory called raw_data
+
+mv satelite_temperature_data.csv raw_data	
 ```
 6. **Extract top 10 temperature**
 ```bash
