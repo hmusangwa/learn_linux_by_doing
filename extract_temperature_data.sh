@@ -1,7 +1,6 @@
 #!/bin/bash
 
 echo "Extracting top 10 highest temperatures..."
-cd lab-1_sateliteDataAnalysis
 mkdir final_semana
 mv rename_directory analyzed_data
 rm dummy
