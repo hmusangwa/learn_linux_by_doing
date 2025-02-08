@@ -2,6 +2,7 @@
 
 if [ ! -f "raw_data/satelite_temperature_data.csv" ]; then
     echo "Error: satelite_temperature_data.csv not found in raw_data directory"
+
     exit 1
 fi
 
